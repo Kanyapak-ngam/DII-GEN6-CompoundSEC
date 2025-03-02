@@ -1,8 +1,16 @@
 
+// Main.java (Entry Point)
+import javax.swing.*;
+
 public class Main {
-    public static void main (String[] args){
-        System.out.print("More Fun");
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new AdminPage());
     }
-
-
 }
+
+
+
+
+
+
+
